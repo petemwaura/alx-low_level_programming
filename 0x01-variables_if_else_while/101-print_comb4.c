@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prog prints all possible different combinations of these digits
+ * main - prog prints all possible diff combins of these digits
  * Return: Always 0 (Success)
  */
 
@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (tens = '0'; tens <= '9'; tens++)
 		{
-			for (ones = '0'; ones <= '9' ones++)
+			for (ones = '0'; ones <= '9'; ones++)
 			{
 				if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
 				{
